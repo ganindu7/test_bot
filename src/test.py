@@ -33,12 +33,12 @@ def print_chart(exchange, symbol, timeframe):
     ohlcv = exchange.fetch_ohlcv(symbol, timeframe)
     
     # get the attribute we are interested in
-    index = 4 
+    index = 2 
     series = [x[index] for x in ohlcv]
     
     # print chart
     print("\n" + asciichart.plot(series[-120:], {'height': 20}))
     
-print_chart(gdax,symbol, '1h')
+print_chart(gdax,symbol, '1m')
 
 
