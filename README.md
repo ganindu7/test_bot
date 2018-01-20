@@ -1,3 +1,3 @@
-# test_bot
+# Test_Bot
 
-Attempt to learn about automated trading. 
+some testing to learn about automated trading. 
